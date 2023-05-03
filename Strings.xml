@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChordAppVer8-One chord random Progressions</string>
+    <string-array name="key_letters">
+        <item>C</item>
+        <item>C#</item>
+        <item>D</item>
+        <item>D#</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F#</item>
+        <item>G</item>
+        <item>G#</item>
+        <item>A</item>
+        <item>D#</item>
+        <item>B</item>
+    </string-array>
+</resources>
