@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- There is not much to comment. There is a screen and now there is a spinner a button a text prompt and a text box that will be updated -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/randomize_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#005191"
+        android:padding="16dp"
+        android:text="Randomize"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/chord_progression_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_below="@id/randomize_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/key_spinner"
+        android:layout_width="144dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/randomize_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="-199dp"
+        android:layout_marginEnd="132dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_above="@+id/key_spinner"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="105dp"
+        android:text="Select a Key Letter from the drop down menu and then press the randomize button for a progression"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>
